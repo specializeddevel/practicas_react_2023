@@ -13,7 +13,7 @@ export const GifExpertApp = () => {
         <AddCategory setCategories ={ setCategories }/>
 
         {/* listado de gifts */}
-                <ol>
+        <ol>
             { categories.map( category => { 
                 return <li key={ category }>{ category }</li>
                 } ) 
